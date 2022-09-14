@@ -1,0 +1,141 @@
+.nav-bar {
+  border: solid rgb(209, 209, 209) .1vw;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: row;
+  height: 4vw;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 1vw;
+}
+
+.link-title {
+  color: tomato;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+section {
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.buttons-container {
+  display: flex;
+  border-left: solid rgb(209, 209, 209) .1vw;
+  padding-left: 7vw;
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+}
+
+.buttons-container>button {
+  color: rgb(209, 209, 209);
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  height: 100%;
+  font-size: larger;
+}
+
+.link-purchases {
+  color: rgb(209, 209, 209);
+}
+
+.login {
+  position: absolute;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(0);
+  transition: 0.6s;
+  transform-origin: top;
+  left: 54vw;
+  width: 320px;
+}
+
+.login.open {
+  transform: scale(1);
+}
+
+.log-in-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-character {
+  font-size: 7vw;
+  color: tomato;
+}
+
+.log-out-button {
+  border: none;
+  background-color: white;
+  color: grey;
+  font-size: large;
+  margin-left: 1vw;
+  margin-top: 1.5vw;
+}
+
+.log-in-clean {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-password {
+  font-size: large;
+  color: rgb(68, 68, 68);
+  margin-bottom: .5vw;
+}
+
+.log-in-clean>input {
+  margin-bottom: .5vw;
+  padding: 1vw;
+  height: 3vh;
+}
+
+.log-in-button {
+  height: 2.5vw;
+  background-color: tomato;
+  border: none;
+  color: white;
+  margin-top: 1vw;
+  font-size: large;
+}
+
+.test-data {
+  background-color: rgb(219, 242, 250);
+  color: rgb(68, 68, 68);
+  border-radius: .5vw;
+  padding: 1vw 1vw 0vw 1vw;
+  font-size: large;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.test-data>h5 {
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 1vw;
+}
+
+.test-data>p {
+  margin-bottom: .8vw;
+}
+
+.error {
+  margin-top: 1.5vw;
+  color: rgb(0, 183, 255);
+}

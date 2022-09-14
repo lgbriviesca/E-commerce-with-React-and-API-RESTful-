@@ -1,0 +1,105 @@
+.cart-modal {
+  position: fixed;
+  bottom: 0;
+  right: -10vw;
+  background: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 2vw;
+  width: 20vw;
+  height: 92%;
+  transform: translateX(11vw);
+  transition: 1s;
+  overflow: auto;
+}
+
+.open {
+  transform: translateX(-10vw);
+}
+
+.cart-modal .cart-list {
+  list-style: none;
+  color: #444444;
+  font-size: .6vw;
+}
+
+.cart-modal .cart-list li {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: xx-large;
+  margin-bottom: 2vw;
+  color: rgb(68, 68, 68);
+}
+
+.remove-button {
+  font-size: large;
+  color: tomato;
+  border: none;
+  background-color: white;
+}
+
+.brand-and-remove {
+  font-size: large;
+  display: flex;
+  color: rgb(165, 165, 165);
+  justify-content: space-between;
+}
+
+.quantity-container {
+  border: solid rgb(209, 209, 209) .1vw;
+  text-align: center;
+  width: 3.5vw;
+  padding: .2vw;
+  border-radius: .2vw;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
+  font-size: large;
+}
+
+.quantity-container:hover{
+  cursor:not-allowed;
+}
+
+.strong:hover{
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.total-filler {
+  color: transparent;
+}
+
+.total-total {
+  color: rgb(165, 165, 165);
+}
+
+.button-checkout {
+  width: 100%;
+  font-size: large;
+  height: 2.5vw;
+  border: none;
+  color: white;
+  background-color: tomato;
+  margin-top: 1.5vw;
+}
+
+.button-checkout:hover{
+  cursor: pointer;
+}
+
+.general-price {
+  margin-top: 4vw;
+  padding-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(68, 68, 68);
+  font-size: x-large;
+  border-top: solid rgb(209, 209, 209) .1vw;
+}
